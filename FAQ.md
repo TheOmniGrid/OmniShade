@@ -1,5 +1,12 @@
 # Frequently asked questions
 
+## Which Windows version is targeted?
+
+Windows 11 is OmniShade's primary supported, development and release-
+qualification target. Windows 10 may continue to run, but new compatibility
+claims and release testing no longer target it, so it is best-effort and not
+guaranteed.
+
 ## What is OmniShade?
 
 OmniShade is the runtime and per-game installer layer for real-time post-processing. It detects the selected game's architecture and renderer, deploys the matching runtime, hosts compatible effects and presets, and provides the in-game player interface.
