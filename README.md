@@ -7,6 +7,12 @@
 <p align="center">Part of the <a href="#the-omnivex-suite">OmniVex</a> suite.</p>
 
 <p align="center">
+  <a href="https://www.patreon.com/TheOmniGrid"><img alt="Get it on Patreon" src="https://img.shields.io/badge/Get%20it%20on-Patreon-FF424D?style=for-the-badge&logo=patreon&logoColor=white"></a>
+  &nbsp;
+  <a href="https://ko-fi.com/theomnigrid"><img alt="Get it on Ko-fi" src="https://img.shields.io/badge/Get%20it%20on-Ko--fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white"></a>
+</p>
+
+<p align="center">
   <img alt="Version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-8468FF?style=flat-square">
   <img alt="Windows" src="https://img.shields.io/badge/platform-Windows-54D6FF?style=flat-square">
   <img alt="Free donationware" src="https://img.shields.io/badge/donationware-free-32D99B?style=flat-square">
