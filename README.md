@@ -139,14 +139,6 @@ No payment is required. Please do not mirror the installer, runtime, or private 
 | [Repository notice](REPOSITORY_NOTICE.md) | Why this public repository contains documentation only |
 | [Documentation license](LICENSE.md) | Rights applying to this public documentation and artwork |
 
-## Support and feedback
-
-Bug reports and feature requests are welcome through [GitHub Issues](https://github.com/TheOmniGrid/OmniShade/issues). Please remove usernames, local paths, account identifiers, and other personal information from logs or screenshots before posting. Security reports belong in private email, not a public issue.
-
-## Independence and credits
-
-OmniShade is an independent ReShade-derived distribution. ReShade is developed by its respective authors. OmniShade is not endorsed by or affiliated with ReShade, game publishers, GPU vendors, Patreon, or Ko-fi. Third-party licenses and required notices are included with authorized product distributions.
-
 ## The OmniVex suite
 
 OmniShade is one of a family of tools sharing a design language and a philosophy —
@@ -156,9 +148,43 @@ modern, fast, no telemetry:
 
 <sub>**OmniWrappers** is four Direct3D compatibility installers — OmniDXVK, OmniDxWrapper, OmniVKD3D and OmniVoodoo2.</sub>
 
+<sub>Tuned for framerate, mixed for headroom, sharp to the pixel. Donationware
+tools for gamers and audiophiles — audio, graphics, and a bit of privacy too.</sub>
+
+More at [github.com/TheOmniGrid](https://github.com/TheOmniGrid).
+
+---
+
+## Credit
+
+OmniShade is an independent **ReShade-derived** distribution, and would not exist without
+ReShade and the work of its authors and its shader-writing community.
+
+It is **not endorsed by or affiliated with** ReShade, game publishers, GPU vendors, Patreon
+or Ko-fi. Please do not report OmniShade problems to ReShade — its authors have never seen
+this code.
+
+Third-party licences and required notices ship with the authorized product distribution
+rather than in this documentation repository; see
+[REPOSITORY_NOTICE.md](REPOSITORY_NOTICE.md) for exactly what is and is not published here.
+
+---
+
+## Contact
+
+Bug reports and feature requests are welcome through
+[GitHub Issues](https://github.com/TheOmniGrid/OmniShade/issues). Please remove usernames,
+local paths, account identifiers and other personal information from logs or screenshots
+before posting.
+
+Security reports belong in private email, not a public issue. Distribution help, or a
+no-payment copy, go to the same address:
+
+**omnivex@theomnigrid.biz**
+
 ---
 
 <p align="center">
   <img src="media/omnishade-symbol.png" width="54" alt="OmniShade fx symbol"><br>
-  <sub>Built by <strong>OmniVex</strong> · Free donationware · No ads · No gameplay telemetry</sub>
+  <sub>Copyright © 2026 OmniVex · Free donationware · No ads · No gameplay telemetry<br>ReShade-derived; ReShade and all game, GPU and platform names are the property of their respective owners.</sub>
 </p>
