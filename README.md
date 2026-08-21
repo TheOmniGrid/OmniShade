@@ -2,6 +2,10 @@
   <img src="media/banner-animated.gif" width="100%" alt="OmniShade — precision post-processing for games">
 </p>
 
+<h1 align="center">OmniShade</h1>
+<p align="center"><b>A game-first post-processing runtime with renderer-aware setup, broad API coverage and reversible per-title installation.</b></p>
+<p align="center">Part of the <a href="#the-omnivex-suite">OmniVex</a> suite.</p>
+
 <p align="center">
   <img alt="Version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-8468FF?style=flat-square">
   <img alt="Windows" src="https://img.shields.io/badge/platform-Windows-54D6FF?style=flat-square">
@@ -136,6 +140,15 @@ Bug reports and feature requests are welcome through [GitHub Issues](https://git
 ## Independence and credits
 
 OmniShade is an independent ReShade-derived distribution. ReShade is developed by its respective authors. OmniShade is not endorsed by or affiliated with ReShade, game publishers, GPU vendors, Patreon, or Ko-fi. Third-party licenses and required notices are included with authorized product distributions.
+
+## The OmniVex suite
+
+OmniShade is one of a family of tools sharing a design language and a philosophy —
+modern, fast, no telemetry:
+
+**OmniTheme** · **OmniBlock** · **OmniCleaner** · **OmniAPO** · **OmniEQ** · **OmniPlay** · **OmniScale** · **OmniShade** · **OmniVisuals** · **OmniGPU** · **OmniWrappers**
+
+<sub>**OmniWrappers** is four Direct3D compatibility installers — OmniDXVK, OmniDxWrapper, OmniVKD3D and OmniVoodoo2.</sub>
 
 ---
 
