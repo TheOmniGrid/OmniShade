@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/banner-animated.gif" width="100%" alt="OmniShade — precision post-processing for games">
+  <img src="assets/banner-animated.gif" width="100%" alt="OmniShade — precision post-processing for games">
 </p>
 
 <h1 align="center">OmniShade</h1>
@@ -28,6 +28,7 @@
   <a href="FEATURES.md"><img alt="Features" src="https://img.shields.io/badge/Features-25213B?style=for-the-badge"></a>
   <a href="#how-it-fits-together"><img alt="How it works" src="https://img.shields.io/badge/How%20it%20works-25213B?style=for-the-badge"></a>
   <a href="#see-it"><img alt="Screenshots" src="https://img.shields.io/badge/Screenshots-25213B?style=for-the-badge"></a>
+  <a href="PRIVACY.md"><img alt="Privacy" src="https://img.shields.io/badge/Privacy-25213B?style=for-the-badge"></a>
   <a href="#requirements"><img alt="Requirements" src="https://img.shields.io/badge/Requirements-25213B?style=for-the-badge"></a>
   <a href="#compatibility"><img alt="Compatibility" src="https://img.shields.io/badge/Compatibility-25213B?style=for-the-badge"></a>
   <a href="FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-25213B?style=for-the-badge"></a>
@@ -36,13 +37,13 @@
 </p>
 
 > [!IMPORTANT]
-> This is OmniShade's **documentation and support repository**. It intentionally contains no source code, installer, runtime DLL, shader payload, preset archive, or GitHub Release. Official builds are distributed outside GitHub.
+> **Documentation-only repository.** This public repository contains OmniShade documentation, approved artwork, and screenshots—not source code, installers, runtime DLLs, shader payloads, preset archives, or binary releases. Official distribution remains outside GitHub.
 
 ## Why OmniShade
 
 OmniShade is a game-first, ReShade-derived post-processing runtime. It brings renderer-aware setup, dependable per-title recovery, a focused in-game interface, and a modern effects foundation together in one package—without turning ordinary play into a developer workflow.
 
-![Abstract optical illustration of the OmniShade image pipeline](media/omnishade-pipeline-art.png)
+![Abstract optical illustration of the OmniShade image pipeline](assets/omnishade-pipeline-art.png)
 
 | Game-aware | Reversible | Player-focused |
 |---|---|---|
@@ -60,33 +61,6 @@ The runtime provides ReShade FX compatibility, color and depth access, depth-inp
 
 OmniShade does not promise universal compatibility, guaranteed frame-rate gains, hardware ray tracing, or anti-cheat safety. The game, engine, graphics API, driver, wrapper chain, and exposed buffers still decide what is possible.
 
-## How it fits together
-
-![Diagram showing a game flowing through its graphics API into OmniShade and compatible effects](media/omnishade-runtime-flow.svg)
-
-**OmniShade is the runtime.** **OmniVisuals is the optional shader suite.** OmniVisuals remains shader-only, installs separately, and requires a genuine OmniShade installation. OmniToggler remains integrated into OmniShade.
-
-## See it
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="media/omnishade-installer-target-v2.jpg" alt="OmniShade Setup target selection with locally detected games"><br>
-      <sub><strong>Choose the game.</strong> Search detected titles or browse directly to the actual executable.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <img src="media/omnishade-installer-renderer.jpg" alt="OmniShade Setup renderer detection showing DirectX and 64-bit evidence"><br>
-      <sub><strong>Verify the renderer.</strong> Architecture, API, import evidence, and wrapper conflicts are visible before deployment.</sub>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="media/omnishade-installer-operation.jpg" width="70%" alt="OmniShade Setup update, repair, and uninstall choices"><br>
-      <sub><strong>Stay in control.</strong> Update only the runtime, modify effects, verify and repair, or remove OmniShade-managed files.</sub>
-    </td>
-  </tr>
-</table>
-
 ## Feature highlights
 
 - **Automatic architecture selection:** native 32-bit and 64-bit payloads chosen from the executable—not from a filename guess.
@@ -101,6 +75,33 @@ OmniShade does not promise universal compatibility, guaranteed frame-rate gains,
 - **No ads or required account:** local per-game operation with no OmniVex-operated gameplay telemetry service.
 
 [Explore the complete consumer feature overview →](FEATURES.md)
+
+## How it fits together
+
+![Diagram showing a game flowing through its graphics API into OmniShade and compatible effects](assets/omnishade-runtime-flow.svg)
+
+**OmniShade is the runtime.** **OmniVisuals is the optional shader suite.** OmniVisuals remains shader-only, installs separately, and requires a genuine OmniShade installation. OmniToggler remains integrated into OmniShade.
+
+## See it
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/omnishade-installer-target-v2.jpg" alt="OmniShade Setup target selection with locally detected games"><br>
+      <sub><strong>Choose the game.</strong> Search detected titles or browse directly to the actual executable.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/omnishade-installer-renderer.jpg" alt="OmniShade Setup renderer detection showing DirectX and 64-bit evidence"><br>
+      <sub><strong>Verify the renderer.</strong> Architecture, API, import evidence, and wrapper conflicts are visible before deployment.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="assets/omnishade-installer-operation.jpg" width="70%" alt="OmniShade Setup update, repair, and uninstall choices"><br>
+      <sub><strong>Stay in control.</strong> Update only the runtime, modify effects, verify and repair, or remove OmniShade-managed files.</sub>
+    </td>
+  </tr>
+</table>
 
 ## Requirements
 
@@ -123,9 +124,9 @@ OmniShade is **free donationware**: payment is not required, there are no ads, a
 For the current build, distribution help, or a no-payment copy, contact **[omnivex@theomnigrid.biz](mailto:omnivex@theomnigrid.biz)**. If OmniShade is useful to you and you want to fund continued work, use either official page:
 
 <p align="center">
-  <a href="https://www.patreon.com/TheOmniGrid"><img src="media/support-patreon.svg" height="64" alt="Support OmniShade on Patreon"></a>
+  <a href="https://www.patreon.com/TheOmniGrid"><img src="assets/support-patreon.svg" height="64" alt="Support OmniShade on Patreon"></a>
   &nbsp;&nbsp;
-  <a href="https://ko-fi.com/theomnigrid"><img src="media/support-kofi.svg" height="64" alt="Support OmniShade on Ko-fi"></a>
+  <a href="https://ko-fi.com/theomnigrid"><img src="assets/support-kofi.svg" height="64" alt="Support OmniShade on Ko-fi"></a>
 </p>
 
 No payment is required. Please do not mirror the installer, runtime, or private delivery links; share this repository or the official support pages instead.
@@ -135,9 +136,11 @@ No payment is required. Please do not mirror the installer, runtime, or private 
 | Guide | What it covers |
 |---|---|
 | [Features](FEATURES.md) | Complete consumer-facing capability list and boundaries |
+| [Privacy](PRIVACY.md) | Local data and telemetry boundaries |
 | [FAQ](FAQ.md) | Installation, compatibility, privacy, redistribution, and uninstall answers |
 | [Support](SUPPORT.md) | Reproduction details, logs, privacy, and contact channels |
 | [Security](SECURITY.md) | Private vulnerability reporting and safe disclosure |
+| [Contributing](CONTRIBUTING.md) | Documentation contribution scope and workflow |
 | [Changelog](CHANGELOG.md) | OmniShade 1.0.0 highlights |
 | [Repository notice](REPOSITORY_NOTICE.md) | Why this public repository contains documentation only |
 | [Documentation license](LICENSE.md) | Rights applying to this public documentation and artwork |
@@ -188,6 +191,6 @@ no-payment copy, go to the same address:
 ---
 
 <p align="center">
-  <img src="media/omnishade-symbol.png" width="54" alt="OmniShade fx symbol"><br>
+  <img src="assets/omnishade-symbol.png" width="54" alt="OmniShade fx symbol"><br>
   <sub>Copyright © 2026 OmniVex · Free donationware · No ads · No gameplay telemetry<br>ReShade-derived; ReShade and all game, GPU and platform names are the property of their respective owners.</sub>
 </p>

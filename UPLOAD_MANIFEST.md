@@ -24,17 +24,17 @@ Upload only the contents of this `public-github` folder. The expected public pay
 
 ## Approved promotional media
 
-- `media/omnishade-icon.png`
-- `media/omnishade-symbol.png`
-- `media/omnishade-readme-header.svg`
-- `media/omnishade-runtime-flow.svg`
-- `media/omnishade-pipeline-art.png`
-- `media/omnishade-installer-target.jpg`
-- `media/omnishade-installer-target-v2.jpg`
-- `media/omnishade-installer-renderer.jpg`
-- `media/omnishade-installer-operation.jpg`
-- `media/support-patreon.svg`
-- `media/support-kofi.svg`
+- `assets/omnishade-icon.png`
+- `assets/omnishade-symbol.png`
+- `assets/omnishade-readme-header.svg`
+- `assets/omnishade-runtime-flow.svg`
+- `assets/omnishade-pipeline-art.png`
+- `assets/omnishade-installer-target.jpg`
+- `assets/omnishade-installer-target-v2.jpg`
+- `assets/omnishade-installer-renderer.jpg`
+- `assets/omnishade-installer-operation.jpg`
+- `assets/support-patreon.svg`
+- `assets/support-kofi.svg`
 
 ## Pre-publication boundary check
 
