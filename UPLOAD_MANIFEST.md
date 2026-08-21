@@ -1,10 +1,11 @@
 # GitHub upload manifest
 
-Upload only the contents of this `public-github` folder. The expected public payload contains **25 files**.
+Upload only the contents of this `public-github` folder. The expected public payload contains **28 files**.
 
 ## Repository metadata and support forms
 
 - `.gitignore`
+- `.github/FUNDING.yml`
 - `.github/ISSUE_TEMPLATE/bug_report.yml`
 - `.github/ISSUE_TEMPLATE/feature_request.yml`
 - `.github/ISSUE_TEMPLATE/config.yml`
@@ -16,6 +17,7 @@ Upload only the contents of this `public-github` folder. The expected public pay
 - `FAQ.md`
 - `SUPPORT.md`
 - `SECURITY.md`
+- `PRIVACY.md`
 - `CONTRIBUTING.md`
 - `CHANGELOG.md`
 - `REPOSITORY_NOTICE.md`
@@ -25,6 +27,7 @@ Upload only the contents of this `public-github` folder. The expected public pay
 ## Approved promotional media
 
 - `assets/omnishade-icon.png`
+- `assets/banner-animated.gif`
 - `assets/omnishade-symbol.png`
 - `assets/omnishade-readme-header.svg`
 - `assets/omnishade-runtime-flow.svg`

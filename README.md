@@ -14,7 +14,7 @@
 
 <p align="center">
   <img alt="Version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-8468FF?style=flat-square">
-  <img alt="Windows" src="https://img.shields.io/badge/platform-Windows-54D6FF?style=flat-square">
+  <img alt="Windows 11" src="https://img.shields.io/badge/platform-Windows%2011-54D6FF?style=flat-square&logo=windows&logoColor=white">
   <img alt="Free donationware" src="https://img.shields.io/badge/donationware-free-32D99B?style=flat-square">
   <img alt="No ads" src="https://img.shields.io/badge/ads-none-202733?style=flat-square">
   <img alt="No gameplay telemetry" src="https://img.shields.io/badge/gameplay%20telemetry-none-202733?style=flat-square">
@@ -107,7 +107,7 @@ OmniShade does not promise universal compatibility, guaranteed frame-rate gains,
 
 | Area | Requirement |
 |---|---|
-| OS | Windows 10 or Windows 11 |
+| OS | Windows 11 is the primary supported and release-qualified target. Windows 10 may still run, but it is no longer an active qualification target. |
 | Architecture | x86 or x64 game executable |
 | Graphics | A supported Direct3D, DirectDraw, OpenGL, or Vulkan path |
 | Permissions | Write access to the selected game folder; some locations may require elevation |
