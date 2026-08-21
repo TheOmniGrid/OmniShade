@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
+  <title id="title">OmniShade — precision post-processing for games</title>
+  <desc id="desc">A dark technical banner with an optical aperture, depth grid, violet and cyan light, and OmniShade product typography.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04070b"/>
+      <stop offset="0.55" stop-color="#080d15"/>
+      <stop offset="1" stop-color="#05080d"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8468ff"/>
+      <stop offset="0.58" stop-color="#bd4dff"/>
+      <stop offset="1" stop-color="#54d6ff"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#8468ff" stop-opacity=".32"/>
+      <stop offset=".5" stop-color="#54d6ff" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#05080d" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M54 0H0V54" fill="none" stroke="#202b3a" stroke-width="1" opacity=".38"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="500" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1598" height="498" rx="17" fill="none" stroke="#273140" stroke-width="2"/>
+  <path d="M0 2H1600" stroke="url(#rail)" stroke-width="4"/>
+  <path d="M0 498H1600" stroke="url(#rail)" stroke-width="2" opacity=".65"/>
+  <rect x="880" y="40" width="680" height="420" fill="url(#grid)" opacity=".55" transform="skewX(-8)"/>
+  <ellipse cx="1265" cy="246" rx="330" ry="260" fill="url(#halo)"/>
+  <g transform="translate(1270 250)" fill="none" filter="url(#glow)">
+    <circle r="142" stroke="#273140" stroke-width="34"/>
+    <circle r="132" stroke="url(#rail)" stroke-width="7" stroke-dasharray="148 22 38 18"/>
+    <circle r="92" stroke="#8468ff" stroke-width="2" opacity=".9"/>
+    <path d="M-150 0H150M0-150V150" stroke="#54d6ff" stroke-width="1" opacity=".48"/>
+    <path d="M-58-44L0-78 61-42 61 42 0 79-58 44Z" stroke="url(#rail)" stroke-width="8"/>
+    <path d="M-48 0C-20-46 23-46 49 0C23 47-20 47-48 0Z" stroke="#ebf0f7" stroke-width="4" opacity=".88"/>
+    <circle r="15" fill="#54d6ff" stroke="#ebf0f7" stroke-width="4"/>
+  </g>
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <text x="98" y="122" fill="#8792a3" font-family="Consolas, monospace" font-size="22" letter-spacing="6">OMNIVEX / GRAPHICS LAYER</text>
+    <text x="92" y="242" fill="#ebf0f7" font-size="86" font-weight="700" letter-spacing="13">OMNISHADE</text>
+    <text x="98" y="298" fill="#b5becb" font-size="28" letter-spacing="2">Precision post-processing for games.</text>
+    <rect x="98" y="348" width="620" height="58" rx="8" fill="#0b1018" stroke="#273140"/>
+    <circle cx="128" cy="377" r="6" fill="#32d99b"/>
+    <text x="150" y="386" fill="#cbd3df" font-family="Consolas, monospace" font-size="19" letter-spacing="2">GAME-FIRST  •  REVERSIBLE  •  NO TELEMETRY</text>
+    <text x="1470" y="55" text-anchor="end" fill="#8792a3" font-family="Consolas, monospace" font-size="18" letter-spacing="3">1.0.0</text>
+  </g>
+</svg>

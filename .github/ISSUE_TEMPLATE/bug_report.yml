@@ -1,0 +1,90 @@
+name: Bug report
+description: Report a reproducible OmniShade problem in a game or in Setup.
+title: "[Bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve OmniShade. Do not upload installers, DLLs, private download links, or unsanitized logs. Security issues belong at omnivex@theomnigrid.biz.
+  - type: input
+    id: version
+    attributes:
+      label: OmniShade version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: game
+    attributes:
+      label: Game and executable
+      placeholder: "Game Name — game.exe"
+    validations:
+      required: true
+  - type: dropdown
+    id: api
+    attributes:
+      label: Graphics API
+      options:
+        - Direct3D 9
+        - Direct3D 10 / 11 / 12
+        - DirectDraw
+        - OpenGL
+        - Vulkan / DXVK
+        - OpenXR
+        - Unknown
+    validations:
+      required: true
+  - type: dropdown
+    id: architecture
+    attributes:
+      label: Executable architecture
+      options:
+        - 64-bit / x64
+        - 32-bit / x86
+        - Unknown
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Include the smallest sequence that triggers the problem.
+      placeholder: |
+        1. Launch the game...
+        2. Open OmniShade...
+        3. Enable...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Windows, GPU, and driver
+      placeholder: "Windows 11 24H2; NVIDIA/AMD GPU; driver version"
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Sanitized log excerpt
+      description: Paste only the relevant final 100–200 lines. Remove usernames, local paths, identifiers, and tokens.
+      render: text
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: The game starts without OmniShade.
+          required: true
+        - label: I tested once with all effects disabled.
+          required: true
+        - label: I removed personal information and private links from this report.
+          required: true
+        - label: This is not a security vulnerability.
+          required: true

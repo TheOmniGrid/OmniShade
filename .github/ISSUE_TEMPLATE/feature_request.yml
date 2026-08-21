@@ -1,0 +1,35 @@
+name: Feature request
+description: Suggest a player-facing OmniShade improvement.
+title: "[Feature] "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the player problem first. Consumer builds remain gaming-only and do not expose developer, capture, telemetry, calibration, or shader-analysis tooling.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Player problem
+      description: What is difficult, missing, or unclear today?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: What should the player be able to accomplish?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Game or renderer context
+      description: Include a game, API, or workflow when the request is compatibility-specific.
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Public repository boundary
+      options:
+        - label: This request does not include source code, binaries, shaders, presets, or private delivery links.
+          required: true

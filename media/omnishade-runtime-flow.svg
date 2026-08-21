@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="460" viewBox="0 0 1600 460" role="img" aria-labelledby="title desc">
+  <title id="title">How OmniShade fits into a game</title>
+  <desc id="desc">A flow from the selected game through its graphics API into the OmniShade runtime and compatible effects, with OmniVisuals shown as an optional shader-only suite.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#060a10"/><stop offset="1" stop-color="#0b1018"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8468ff"/><stop offset="1" stop-color="#54d6ff"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#54d6ff"/></marker>
+  </defs>
+  <rect width="1600" height="460" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1598" height="458" rx="17" fill="none" stroke="#202733" stroke-width="2"/>
+  <text x="70" y="72" fill="#8792a3" font-family="Consolas, monospace" font-size="18" letter-spacing="4">THE PLAYER PATH</text>
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <g transform="translate(70 122)">
+      <rect width="285" height="166" rx="10" fill="#0b1018" stroke="#273140" stroke-width="2"/>
+      <rect width="6" height="166" rx="3" fill="#32d99b"/>
+      <text x="34" y="54" fill="#8792a3" font-family="Consolas, monospace" font-size="17" letter-spacing="3">01 / TARGET</text>
+      <text x="34" y="96" fill="#ebf0f7" font-size="29" font-weight="650">Your game</text>
+      <text x="34" y="130" fill="#aab4c2" font-size="18">One executable. One profile.</text>
+    </g>
+    <path d="M375 205H475" stroke="#54d6ff" stroke-width="3" marker-end="url(#arrow)" filter="url(#glow)"/>
+    <g transform="translate(500 122)">
+      <rect width="310" height="166" rx="10" fill="#0b1018" stroke="#273140" stroke-width="2"/>
+      <rect width="6" height="166" rx="3" fill="#54d6ff"/>
+      <text x="34" y="54" fill="#8792a3" font-family="Consolas, monospace" font-size="17" letter-spacing="3">02 / RENDERER</text>
+      <text x="34" y="96" fill="#ebf0f7" font-size="29" font-weight="650">Graphics API</text>
+      <text x="34" y="130" fill="#aab4c2" font-size="18">DirectX • Vulkan • OpenGL</text>
+    </g>
+    <path d="M830 205H930" stroke="#8468ff" stroke-width="3" marker-end="url(#arrow)" filter="url(#glow)"/>
+    <g transform="translate(955 96)">
+      <rect width="310" height="218" rx="12" fill="#131128" stroke="url(#accent)" stroke-width="3"/>
+      <text x="34" y="55" fill="#a894ff" font-family="Consolas, monospace" font-size="17" letter-spacing="3">03 / RUNTIME</text>
+      <text x="34" y="105" fill="#ffffff" font-size="34" font-weight="700">OmniShade</text>
+      <text x="34" y="143" fill="#c7cfdb" font-size="18">Effects • presets • depth</text>
+      <text x="34" y="174" fill="#c7cfdb" font-size="18">HDR • motion • OmniToggler</text>
+    </g>
+    <path d="M1285 205H1360" stroke="#b84eff" stroke-width="3" marker-end="url(#arrow)" filter="url(#glow)"/>
+    <g transform="translate(1380 122)">
+      <rect width="160" height="166" rx="10" fill="#0b1018" stroke="#273140" stroke-width="2"/>
+      <text x="24" y="54" fill="#8792a3" font-family="Consolas, monospace" font-size="15" letter-spacing="2">OUTPUT</text>
+      <text x="24" y="96" fill="#ebf0f7" font-size="25" font-weight="650">Your look</text>
+      <text x="24" y="130" fill="#aab4c2" font-size="16">In the game</text>
+    </g>
+    <g transform="translate(70 348)" font-family="Consolas, monospace" font-size="17">
+      <rect width="1470" height="66" rx="9" fill="#090e15" stroke="#202733"/>
+      <text x="32" y="41" fill="#32d99b">✓ x86 + x64</text>
+      <text x="285" y="41" fill="#54d6ff">✓ renderer-aware setup</text>
+      <text x="635" y="41" fill="#a894ff">✓ reversible per-title changes</text>
+      <text x="1055" y="41" fill="#d277ff">+ OmniVisuals: optional, shader-only</text>
+    </g>
+  </g>
+</svg>
