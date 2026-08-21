@@ -23,12 +23,13 @@
 <!-- Quick navigation. Each chip jumps to a README section or maintained
      document. Keep the fragment links aligned with GitHub's heading slugs. -->
 <p align="center">
-  <a href="#getting-omnishade"><img alt="Get OmniShade" src="https://img.shields.io/badge/%E2%86%93%20Get%20OmniShade-8468FF?style=for-the-badge"></a>
+  <a href="#get-omnishade"><img alt="Get OmniShade" src="https://img.shields.io/badge/%E2%86%93%20Get%20OmniShade-8468FF?style=for-the-badge"></a>
   <a href="#why-omnishade"><img alt="Overview" src="https://img.shields.io/badge/Overview-25213B?style=for-the-badge"></a>
   <a href="FEATURES.md"><img alt="Features" src="https://img.shields.io/badge/Features-25213B?style=for-the-badge"></a>
   <a href="#how-it-fits-together"><img alt="How it works" src="https://img.shields.io/badge/How%20it%20works-25213B?style=for-the-badge"></a>
   <a href="#see-it"><img alt="Screenshots" src="https://img.shields.io/badge/Screenshots-25213B?style=for-the-badge"></a>
-  <a href="#requirements-and-compatibility"><img alt="Compatibility" src="https://img.shields.io/badge/Compatibility-25213B?style=for-the-badge"></a>
+  <a href="#requirements"><img alt="Requirements" src="https://img.shields.io/badge/Requirements-25213B?style=for-the-badge"></a>
+  <a href="#compatibility"><img alt="Compatibility" src="https://img.shields.io/badge/Compatibility-25213B?style=for-the-badge"></a>
   <a href="FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-25213B?style=for-the-badge"></a>
   <a href="SUPPORT.md"><img alt="Support" src="https://img.shields.io/badge/Support-25213B?style=for-the-badge"></a>
   <a href="CHANGELOG.md"><img alt="Changelog" src="https://img.shields.io/badge/Changelog-25213B?style=for-the-badge"></a>
@@ -101,7 +102,7 @@ OmniShade does not promise universal compatibility, guaranteed frame-rate gains,
 
 [Explore the complete consumer feature overview →](FEATURES.md)
 
-## Requirements and compatibility
+## Requirements
 
 | Area | Requirement |
 |---|---|
@@ -111,9 +112,11 @@ OmniShade does not promise universal compatibility, guaranteed frame-rate gains,
 | Permissions | Write access to the selected game folder; some locations may require elevation |
 | Online games | Check the publisher's modding and anti-cheat rules first; when injection is prohibited, do not use OmniShade |
 
+## Compatibility
+
 Compatibility is game-specific. A supported API does not prove that every effect, depth path, overlay, or third-party wrapper will work in every title. See the [FAQ](FAQ.md) before assuming support.
 
-## Getting OmniShade
+## Get OmniShade
 
 OmniShade is **free donationware**: payment is not required, there are no ads, and support through Patreon or Ko-fi is entirely optional. GitHub intentionally hosts documentation and screenshots only—not the installer or source.
 
