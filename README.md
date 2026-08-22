@@ -23,17 +23,17 @@
 <!-- Quick navigation. Each chip jumps to a README section or maintained
      document. Keep the fragment links aligned with GitHub's heading slugs. -->
 <p align="center">
-  <a href="#get-omnishade"><img alt="Get OmniShade" src="https://img.shields.io/badge/%E2%86%93%20Get%20OmniShade-8468FF?style=for-the-badge"></a>
-  <a href="#why-omnishade"><img alt="Overview" src="https://img.shields.io/badge/Overview-25213B?style=for-the-badge"></a>
-  <a href="FEATURES.md"><img alt="Features" src="https://img.shields.io/badge/Features-25213B?style=for-the-badge"></a>
-  <a href="#how-it-fits-together"><img alt="How it works" src="https://img.shields.io/badge/How%20it%20works-25213B?style=for-the-badge"></a>
-  <a href="#see-it"><img alt="Screenshots" src="https://img.shields.io/badge/Screenshots-25213B?style=for-the-badge"></a>
-  <a href="PRIVACY.md"><img alt="Privacy" src="https://img.shields.io/badge/Privacy-25213B?style=for-the-badge"></a>
-  <a href="#requirements"><img alt="Requirements" src="https://img.shields.io/badge/Requirements-25213B?style=for-the-badge"></a>
-  <a href="#compatibility"><img alt="Compatibility" src="https://img.shields.io/badge/Compatibility-25213B?style=for-the-badge"></a>
-  <a href="FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-25213B?style=for-the-badge"></a>
-  <a href="SUPPORT.md"><img alt="Support" src="https://img.shields.io/badge/Support-25213B?style=for-the-badge"></a>
-  <a href="CHANGELOG.md"><img alt="Changelog" src="https://img.shields.io/badge/Changelog-25213B?style=for-the-badge"></a>
+  <a href="#get-omnishade"><img alt="Get OmniShade" src="https://img.shields.io/badge/%E2%86%93%20Get%20OmniShade-8A7BFF?style=for-the-badge"></a>
+  <a href="#why-omnishade"><img alt="Overview" src="https://img.shields.io/badge/Overview-2B2545?style=for-the-badge"></a>
+  <a href="FEATURES.md"><img alt="Features" src="https://img.shields.io/badge/Features-2B2545?style=for-the-badge"></a>
+  <a href="#how-it-fits-together"><img alt="How it works" src="https://img.shields.io/badge/How%20it%20works-2B2545?style=for-the-badge"></a>
+  <a href="#see-it"><img alt="Screenshots" src="https://img.shields.io/badge/Screenshots-2B2545?style=for-the-badge"></a>
+  <a href="PRIVACY.md"><img alt="Privacy" src="https://img.shields.io/badge/Privacy-2B2545?style=for-the-badge"></a>
+  <a href="#requirements"><img alt="Requirements" src="https://img.shields.io/badge/Requirements-2B2545?style=for-the-badge"></a>
+  <a href="#compatibility"><img alt="Compatibility" src="https://img.shields.io/badge/Compatibility-2B2545?style=for-the-badge"></a>
+  <a href="FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-2B2545?style=for-the-badge"></a>
+  <a href="SUPPORT.md"><img alt="Support" src="https://img.shields.io/badge/Support-2B2545?style=for-the-badge"></a>
+  <a href="CHANGELOG.md"><img alt="Changelog" src="https://img.shields.io/badge/Changelog-2B2545?style=for-the-badge"></a>
 </p>
 
 > [!IMPORTANT]
