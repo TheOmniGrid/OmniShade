@@ -12,12 +12,13 @@
   <a href="https://ko-fi.com/theomnigrid"><img alt="Get it on Ko-fi" src="https://img.shields.io/badge/Get%20it%20on-Ko--fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white"></a>
 </p>
 
+<!-- Suite metadata: Version · Platform · Languages · Telemetry · Distribution -->
 <p align="center">
-  <img alt="Version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-8468FF?style=flat-square">
-  <img alt="Windows 11" src="https://img.shields.io/badge/platform-Windows%2011-54D6FF?style=flat-square&logo=windows&logoColor=white">
-  <img alt="Free donationware" src="https://img.shields.io/badge/donationware-free-32D99B?style=flat-square">
-  <img alt="No ads" src="https://img.shields.io/badge/ads-none-202733?style=flat-square">
-  <img alt="No gameplay telemetry" src="https://img.shields.io/badge/gameplay%20telemetry-none-202733?style=flat-square">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-8A7BFF?style=flat-square">
+  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2011%20%C2%B7%20x86%20%2F%20x64-0078D4?style=flat-square">
+  <img alt="Languages" src="https://img.shields.io/badge/languages-EN%20%C2%B7%20DE%20%C2%B7%20ES%20%C2%B7%20FR%20%C2%B7%20RO-8A7BFF?style=flat-square">
+  <img alt="Telemetry" src="https://img.shields.io/badge/telemetry-none-2EA043?style=flat-square">
+  <img alt="Distribution" src="https://img.shields.io/badge/distribution-docs%20only-99A3B1?style=flat-square">
 </p>
 
 <!-- Quick navigation. Each chip jumps to a README section or maintained
