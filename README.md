@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner-animated.gif" alt="OmniShade — Precision post-processing for games." width="100%">
+  <img src="assets/banner-animated.gif?v=20260822-symbol-reactor" alt="OmniShade — Precision post-processing for games." width="100%">
 </p>
 
 <h1 align="center">OmniShade</h1>
