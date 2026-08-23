@@ -44,7 +44,7 @@
 
 OmniShade is a game-first, ReShade-derived post-processing runtime. It brings renderer-aware setup, dependable per-title recovery, a focused in-game interface, and a modern effects foundation together in one package—without turning ordinary play into a developer workflow.
 
-![OmniShade capability map covering renderer-aware setup, Depth Buffer 2.0, the modern effect runtime, and the player-first overlay](assets/presentation/capabilities.png)
+![OmniShade capability map covering renderer-aware setup, Depth Buffer 2.0, the modern effect runtime, and the player-first overlay](assets/presentation/capabilities.png?v=20260823-visible-numbers-v3)
 
 | Game-aware | Reversible | Player-focused |
 |---|---|---|
