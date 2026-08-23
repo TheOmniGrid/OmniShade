@@ -30,8 +30,8 @@ Upload only the contents of this `public-github` folder. The expected public pay
 - `assets/banner-animated.gif`
 - `assets/omnishade-symbol.png`
 - `assets/omnishade-readme-header.svg`
-- `assets/omnishade-runtime-flow.svg`
-- `assets/omnishade-pipeline-art.png`
+- `assets/presentation/capabilities.png`
+- `assets/presentation/workflow.png`
 - `assets/omnishade-installer-target.jpg`
 - `assets/omnishade-installer-target-v2.jpg`
 - `assets/omnishade-installer-renderer.jpg`
