@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner-animated.gif?v=20260822-premium-motion-v3" alt="OmniShade — Precision post-processing for games." width="100%">
+  <img src="assets/banner-animated.gif?v=20260825-current-symbol-v1" alt="OmniShade — Precision post-processing for games." width="100%">
 </p>
 
 <h1 align="center">OmniShade</h1>
@@ -15,10 +15,10 @@
 <!-- Suite metadata: Version · Platform · Languages · Telemetry · Distribution -->
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-8A7BFF?style=flat-square">
-  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2011%20%C2%B7%20x86%20%2F%20x64-0078D4?style=flat-square">
-  <img alt="Languages" src="https://img.shields.io/badge/languages-EN%20%C2%B7%20DE%20%C2%B7%20ES%20%C2%B7%20FR%20%C2%B7%20RO-8A7BFF?style=flat-square">
-  <img alt="Telemetry" src="https://img.shields.io/badge/telemetry-none-2EA043?style=flat-square">
-  <img alt="Distribution" src="https://img.shields.io/badge/distribution-docs%20only-99A3B1?style=flat-square">
+  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2011%20%C2%B7%20x86%20%2F%20x64-57C7FF?style=flat-square">
+  <img alt="Languages: 10" src="https://img.shields.io/badge/languages-10-8A7BFF?style=flat-square">
+  <img alt="Telemetry" src="https://img.shields.io/badge/telemetry-none-00C66D?style=flat-square">
+  <img alt="Distribution" src="https://img.shields.io/badge/distribution-docs%20only-969FAB?style=flat-square&labelColor=30363D">
 </p>
 
 <!-- Quick navigation. Each chip jumps to a README section or maintained
@@ -71,7 +71,8 @@ OmniShade does not promise universal compatibility, guaranteed frame-rate gains,
 - **Modern effect runtime:** transactional reload, cache validation, bounded startup work, HDR/color metadata, and compatible temporal/motion coordination.
 - **Integrated OmniToggler:** suppress selected game effects through the host runtime without shipping another consumer DLL.
 - **Movable, resizable overlay:** a compact Omni Night interface that remembers bounded placement and keeps player tasks together.
-- **Five complete languages:** English, Deutsch, Español, Français, and Română across Setup and the consumer runtime.
+- **Ten complete Setup languages:** English, Deutsch, Español, Français, Română, Русский, 简体中文, 日本語, 한국어, and Türkçe, with immediate switching, local persistence, Windows first-run detection, and safe English fallback.
+- **Local health check:** reports runtime and shader readiness, active stack, depth/motion availability, HDR state, reload recovery, and actionable warnings without changing Windows graphics settings.
 - **Gaming-only package:** no developer, capture, telemetry, calibration, or shader-analysis surfaces in normal builds.
 - **No ads or required account:** local per-game operation with no OmniVex-operated gameplay telemetry service.
 

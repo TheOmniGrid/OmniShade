@@ -79,9 +79,24 @@ A listed API is a supported route, not a promise that every game, driver, wrappe
 - Español.
 - Français.
 - Română.
+- Русский.
+- 简体中文.
+- 日本語.
+- 한국어.
+- Türkçe.
+- The Setup selector switches immediately, persists locally, follows a supported
+  Windows display language on first launch, and falls back safely to English.
 - Keyboard focus is visible throughout Setup.
 - Tooltips wrap and remain screen-aware.
 - Motion is restrained and follows reduced-motion behavior where available.
+
+## Local health and recovery visibility
+
+- **Omni Health Check** reports runtime and shader readiness, the active stack,
+  depth and motion availability, HDR state, transactional reload recovery, and
+  actionable warnings.
+- Health reporting is local and read-only: it does not enable or change Windows
+  Auto HDR, Advanced Color, VRR, or windowed-game optimization.
 
 ## Privacy and distribution
 
